@@ -1,7 +1,17 @@
 let newDate = new Date()
 document.getElementById("copyright").innerText = newDate.getFullYear();
 
-
+// Function to handle the screen width change
+function handleScreenWidthChange() {
+    var screenWidth = window.innerWidth || document.documentElement.clientWidth;
+    var updatedScreenWidth = screenWidth / 1.75;
+    
+    document.documentElement.style.setProperty('--screen-width', updatedScreenWidth + 'px');
+  }
+  
+  // Add event listener for the 'resize' event
+  window.addEventListener('resize', handleScreenWidthChange);
+  
 var slideIndex = 1;
 showDivs(slideIndex);
 

@@ -1,9 +1,21 @@
+@media(min-width: 650px) {
+    
+    header {
+        display: grid;
+        
+    }
+    img{
+        width: 100%;
+    }
 
-header {
-    display: grid;
-}
+    #homenav {
+        position: fixed;
+        top: 0;
+        width: 100%
+    }
 
-.heroimg {
-    width: 80%;
-    margin: 0 auto;
+    .heroimg {
+        width: 80%;
+        margin: 0 auto;
+    }
 }
