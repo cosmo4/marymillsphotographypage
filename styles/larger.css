@@ -1,0 +1,9 @@
+
+header {
+    display: grid;
+}
+
+.heroimg {
+    width: 80%;
+    margin: 0 auto;
+}
